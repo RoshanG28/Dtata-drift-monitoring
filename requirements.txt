@@ -1,0 +1,24 @@
+# Data Drift Monitoring System
+
+# Core
+pandas>=1.5.0
+numpy>=1.23.0
+scipy>=1.9.0
+
+# Statistical Testing
+statsmodels>=0.14.0
+
+# Machine Learning
+scikit-learn>=1.2.0
+tensorflow>=2.12.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Utilities
+pyyaml>=6.0
+tqdm>=4.64.0
+
+# Testing
+pytest>=7.2.0

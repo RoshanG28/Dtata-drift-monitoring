@@ -1,0 +1,18 @@
+# Drift Detection Thresholds
+
+psi_thresholds:
+  no_change: 0.1
+  small_change: 0.2
+  significant_change: 0.25
+
+ks_test:
+  significance_level: 0.05
+
+monitoring:
+  batch_size: 10000
+  check_frequency: "5m"
+  lookback_window: "7d"
+
+alerting:
+  email_enabled: false
+  critical_threshold: 0.25
